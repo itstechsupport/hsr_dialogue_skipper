@@ -10,7 +10,7 @@ print("MAKE SURE TO RUN ME AS ADMINISTRATOR :3")
 while(True):
     px = getpixelcolor.average(x-1, y, x+1, y+2)
     print(px)
-    if (px == (3, 3, 3)):
+    if (px == (3, 3, 3) or px == (2, 2, 3) or px == (2, 2, 2) or px == (2, 3, 3)):
         moveTo(x, y)
         click()
         print("Dialogue skipped!")

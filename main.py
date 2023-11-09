@@ -7,7 +7,6 @@ y = int(GetSystemMetrics(1)*0.9375)
 
 print("MAKE SURE TO RUN ME AS ADMINISTRATOR :3")
 
-moveTo(x, y)
 while(True):
     px = getpixelcolor.pixel(x, y)
     if (px == (206, 190, 145)):
